@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>분홍우산</title>
+	<style type="text/css">
+		body{background: black;margin: auto;text-align: center; padding-top: 250px}
+	
+	</style>
+</head>
+<body>
+	<img id="umb" src="black.jpg">
+	<script type="text/javascript">
+		
+		var state = "off";
+
+		umb.onclick = function(){
+			if(state == "off"){
+				umb.src = "pink.jpg";
+				state = "on";
+			}else{
+				umb.src = "black.jpg";
+				state = "off";
+			}
+		}
+	
+	</script>
+</body>
+</html>
